@@ -1,0 +1,24 @@
+{
+
+"name": "wizardrunner/saludo",
+"description": "Librería Saludo v1.0.0 en PHP para generar saludos de Guillermo",
+"authors": [
+    {
+        "name":"Profe Production",
+        "email":"planeta.alderaan@gmail.com",
+        "homepage":"https://github.com/Wizardrunner/saludo"
+    }
+],
+"license": "MIT",
+"minimum-stability": "dev",
+"prefer-stable": true,
+"require": {
+    "php":">=7.4"
+},
+"autoload": {
+    "psr-4": {
+        "Saludo\\Saludo\\":"src/"
+    }
+}
+
+}
