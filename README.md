@@ -1,10 +1,17 @@
-##### PEQUEÑO
-# GRANDE
+## Librería Saludo
+#### por Guillermo Esteban
 
-PHP ````
+``` sh
+composer require wizardrunner/saludo:dev-main
 
+```
+
+#### Para usar la librería:
+
+``` php
 <?php
- echo "hola";
+ use Saludo\Saludo\Saludo
+ $saludo = new Saludo('Nombre del usuario');
+ $saludo->getSaludo();
 ?>
-
 ```
